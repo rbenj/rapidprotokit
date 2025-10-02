@@ -33,6 +33,7 @@ export default [
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
       'react/jsx-max-props-per-line': ['error', { 'maximum': 3 }],
       'react/jsx-one-expression-per-line': ['error', { allow: "non-jsx" }],
+      'semi': ['error', 'always'],
     },
   },
 ]
